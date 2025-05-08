@@ -10,14 +10,14 @@ body {
 }  
 
 header {  
-    background: rgb(112, 112, 154);  
+    background: rgba(71, 3, 3, 0.87);  
     color: aliceblue;  
     padding: 2rem;  
     text-align: center;  
 }  
 
 nav {  
-    background: rgb(74, 74, 106);  
+    background: rgba(122, 53, 53, 0.87);  
     padding: 0.5rem;  
     text-align: center;  
 }  
@@ -41,3 +41,8 @@ footer {
     padding: 1rem;  
     background: #ccc;  
 }  
+.logo img {
+    height: 75px;
+    padding: 0.5rem;
+    margin: 0rem;
+}

@@ -1,8 +1,12 @@
 
 
 body {
-    background: linear-gradient(to bottom right, #691601, #db630670);
+    background-image: url('fractal.jpg'); /* Pfad zum Logo */
+    background-repeat: no-repeat; /* verhindert Wiederholungen */
+    background-position: center; /* zentriert das Logo */
+    background-size: cover; /* Logo wird vollständig sichtbar */
 }
+
  
 
 header {  
@@ -14,6 +18,13 @@ header {
     
 }  
 
+main{
+
+    color: aliceblue;  
+    margin: 0 1rem;  
+    text-decoration: none; 
+
+}
 nav {  
     background: linear-gradient(to bottom right, #691601, #db630670);  
     padding: 0.5rem;  

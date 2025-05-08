@@ -18,9 +18,9 @@ header {
     color: white; /* Schriftfarbe */
     text-shadow: 
         -2px -2px 0 black, 
-         2px -2px 0 black, 
-        -2px  2px 0 black, 
-         2px  2px 0 black; /* Umrandung simulieren */
+         1px -1px 0 black, 
+        -1px  1px 0 black, 
+         1px  1px 0 black; /* Umrandung simulieren */
 
     
 }  
@@ -31,10 +31,10 @@ main{
     font-size: 20px;
     color: white; /* Schriftfarbe */
     text-shadow: 
-        -2px -2px 0 black, 
-         2px -2px 0 black, 
-        -2px  2px 0 black, 
-         2px  2px 0 black; /* Umrandung simulieren */
+    -2px -2px 0 black, 
+     1px -1px 0 black, 
+    -1px  1px 0 black, 
+     1px  1px 0 black; /* Umrandung simulieren */
 
 
 }
@@ -52,9 +52,9 @@ nav a {
     color: white; /* Schriftfarbe */
     text-shadow: 
         -2px -2px 0 black, 
-         2px -2px 0 black, 
-        -2px  2px 0 black, 
-         2px  2px 0 black; /* Umrandung simulieren */
+         1px -1px 0 black, 
+        -1px  1px 0 black, 
+         1px  1px 0 black; /* Umrandung simulieren */
  
 }  
 
@@ -73,9 +73,9 @@ footer {
     color: white; /* Schriftfarbe */
     text-shadow: 
         -2px -2px 0 black, 
-         2px -2px 0 black, 
-        -2px  2px 0 black, 
-         2px  2px 0 black; /* Umrandung simulieren */
+         1px -1px 0 black, 
+        -1px  1px 0 black, 
+         1px  1px 0 black; /* Umrandung simulieren */
 
 }  
 .logo img {

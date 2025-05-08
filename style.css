@@ -31,7 +31,7 @@ main{
     font-size: 20px;
     color: white; /* Schriftfarbe */
     text-shadow: 
-    -2px -2px 0 black, 
+    -2px -2px 0 rgb(0, 0, 0), 
      1px -1px 0 black, 
     -1px  1px 0 black, 
      1px  1px 0 black; /* Umrandung simulieren */
@@ -69,7 +69,7 @@ section {
 footer {  
     text-align: center;  
     background: radial-gradient(circle at top, rgb(0, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
-    font-size: 50px;
+    font-size: 35px;
     color: white; /* Schriftfarbe */
     text-shadow: 
         -2px -2px 0 black, 

@@ -6,11 +6,12 @@ body {
  
 
 header {  
-    background: linear-gradient(to bottom right, #691601, #db630670); 
+    background: radial-gradient(circle at top, rgba(255, 153, 0, 0.5) 0%, rgb(155, 158, 161) 100%);
+ 
     color: aliceblue;  
     padding: 2rem;  
     text-align: center;
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
 }  
 
 nav {  
@@ -36,7 +37,8 @@ section {
 footer {  
     text-align: center;  
     padding: 1rem;  
-    background: linear-gradient(to bottom right, #691601, #db630670); 
+    background: radial-gradient(circle, rgba(255, 125, 4, 0.932) 0%, rgba(0, 0, 0, 0) 100%);
+ 
 }  
 .logo img {
     height: 75px;

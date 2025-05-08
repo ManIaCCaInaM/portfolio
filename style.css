@@ -4,16 +4,15 @@ body {
     background-image: url('fractal.jpg'); /* Pfad zum Logo */
     background-repeat: no-repeat; /* verhindert Wiederholungen */
     background-position: center; /* zentriert das Logo */
-    background-size: cover; /* Logo wird vollständig sichtbar */
+    background-size: cover; /* Logo wird als fläche sichtbar */
 }
 
  
 
 header {  
-    background: radial-gradient(circle at top, rgba(255, 153, 0, 0.5) 0%, rgb(155, 158, 161) 100%);
- 
-    color: aliceblue;  
-    padding: 2rem;  
+    background-color: #214b72; /* Dunkle Hintergrundfarbe */
+    opacity: 1; /* Stellt sicher, dass keine Transparenz vorhanden ist */
+    padding: 15px;  
     text-align: center;
     
 }  
@@ -25,11 +24,12 @@ main{
     text-decoration: none; 
 
 }
-nav {  
-    background: linear-gradient(to bottom right, #691601, #db630670);  
-    padding: 0.5rem;  
-    text-align: center;  
-}  
+nav {
+    background-color: #214b72; /* Dunkle Hintergrundfarbe */
+    opacity: 1; /* Stellt sicher, dass keine Transparenz vorhanden ist */
+    padding: 15px;
+}
+ 
 
 nav a {  
     color: aliceblue;  
@@ -47,9 +47,9 @@ section {
 
 footer {  
     text-align: center;  
-    padding: 1rem;  
-    background: radial-gradient(circle, rgba(255, 125, 4, 0.932) 0%, rgba(0, 0, 0, 0) 100%);
- 
+    background-color: #214b72; /* Dunkle Hintergrundfarbe */
+    opacity: 1; /* Stellt sicher, dass keine Transparenz vorhanden ist */
+    padding: 15px;
 }  
 .logo img {
     height: 75px;
